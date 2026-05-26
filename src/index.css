@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-primary: #4f46e5;
+  --color-background: #f8fafc;
+  --color-card: #ffffff;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-income: #16a34a;
+  --color-expense: #dc2626;
+  /* radius */
+  --radius-Card: 1rem;
+  --radius-Input: 0.75rem;
+}
