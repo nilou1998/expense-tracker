@@ -22,12 +22,16 @@ function App() {
     },
   ]);
 
+  function addTransaction(newTransaction: Transaction) {
+    setTransactions((prev) => [...prev, newTransaction]);
+  }
+
   return (
     <div className="flex justify-center items-center bg-background min-h-screen p-4">
       <div className="max-w-md w-full bg-white p-6 flex flex-col space-y-6">
         <Header />
         <BalanceCard />
-        <TransactionForm />
+        <TransactionForm onAddTransaction={addTransaction} />
         <TransactionList transactions={transactions} />
       </div>
     </div>

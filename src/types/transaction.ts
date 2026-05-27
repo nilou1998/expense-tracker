@@ -6,3 +6,7 @@ export type Transaction = {
 };
 
 export type TransactionListProps = { transactions: Transaction[] };
+
+export type OnAddTransactionProps = {
+  onAddTransaction: (transaction: Transaction) => void;
+};
