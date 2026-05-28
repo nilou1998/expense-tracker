@@ -27,7 +27,10 @@ function TransactionForm({ onAddTransaction }: OnAddTransactionProps) {
     setTitle("");
     setAmount("");
     setType("income");
+
   };
+
+
 
   return (
     <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
