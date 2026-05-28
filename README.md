@@ -5,11 +5,7 @@ It allows users to manage income and expenses with persistent storage using loca
 
 🔗 Live Demo
 
-[Add Vercel link here]
-
-📸 Preview
-
-[Add screenshot here]
+https://expense-tracker-gamma-lake-49.vercel.app/
 
 ⚙️ Tech Stack
 React
